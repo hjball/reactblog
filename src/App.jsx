@@ -8,7 +8,7 @@ import {
 import Header from "./components/Header";
 import FourOhFour from "./components/FourOhFour";
 
-import Articles from "./components/Articles/Articles";
+import Articles from "./containers/Articles/Articles";
 import Article from "./components/Articles/Article";
 import Add from "./components/Articles/Add";
 
