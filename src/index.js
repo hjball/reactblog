@@ -30,7 +30,7 @@ const store = createStore(
 ReactDOM.render(
     <Provider store={ store }>
         <Router history={ history }>
-            <App articles={ store.getState().articles } />
+            <App />
         </Router>
     </Provider>,
     document.getElementById("root"),

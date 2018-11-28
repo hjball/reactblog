@@ -10,7 +10,7 @@ const Articles = ({ articles }) => (
                 { /* map over each article and display a list item for each one */ }
                 { articles.map(article => (
                     <li className="list-group-item" key={ article.id }>
-                        { /* link to the article using its id */ }
+                        { /* link to the article using its id */ } 
                         <Link to={ "/articles/" + article.id }>{ article.title }</Link>
                     </li>
                 ))}
